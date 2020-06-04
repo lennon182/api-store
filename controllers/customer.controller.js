@@ -1,4 +1,4 @@
-const Customer = require("./../models/Customer.modgitl");
+const Customer = require("./../models/Customer.model");
 
 exports.addCustomer = async (req, resp) => {
   const addCustomer = new Customer();
