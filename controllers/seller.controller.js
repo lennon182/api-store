@@ -1,4 +1,4 @@
-const Seller = require("./../models/seller.model");
+const Seller = require("./../models/Seller.model");
 
 exports.addSeller = async (req, resp) => {
   const addSeller = new Seller();
